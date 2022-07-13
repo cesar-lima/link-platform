@@ -10,14 +10,14 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4263EB;
+    background: #de4a68;
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
   }
   
   ul li a:hover {
-    background-color: #364FC7;
+    background-color: #e88297;
   }
   
   ul li a:visited{
