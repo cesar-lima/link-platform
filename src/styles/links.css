@@ -11,6 +11,7 @@ ul{
     align-items: center;
     justify-content: center;
     background: #de4a68;
+    color: #ffffff;
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
