@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: #000000;
+    background: url(../assets/background.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     width: 420px;
@@ -19,7 +21,7 @@ body{
     height: 150px;
     border-radius: 50%;
     padding: 3.7px;
-    border: #de4a68 solid 4px;
+    border: #ffffff solid 4px;
 }
 
 h1{

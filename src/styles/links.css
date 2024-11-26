@@ -10,8 +10,8 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #de4a68;
-    color: #ffffff;
+    background: #ffffff;
+    color: #000000;
     margin-bottom: 16px;
     border-radius: 6px;
     transition: background 400ms;
@@ -22,7 +22,7 @@ ul{
   }
 
   ul li a:hover {
-    background-color: #e88297;
+    background-color: #dad7d7;
   }
   
   ul li a:visited{
