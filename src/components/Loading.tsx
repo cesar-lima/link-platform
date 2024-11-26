@@ -1,7 +1,10 @@
+import '../styles/loading.css'
+
 function Loading() {
-    return(
-        <div>
-            carregando
+    return (
+        <div className="loader-container">
+            <div className="loader">
+            </div>
         </div>
     )
 }
