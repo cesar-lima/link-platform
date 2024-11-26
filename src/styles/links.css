@@ -16,7 +16,11 @@ ul{
     border-radius: 6px;
     transition: background 400ms;
   }
-  
+
+  ul li a img{
+    margin-right: 5px;
+  }
+
   ul li a:hover {
     background-color: #e88297;
   }

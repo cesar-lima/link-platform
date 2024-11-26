@@ -14,7 +14,7 @@ body{
     padding: 0px 40px;
 }
 
-img{
+.profile {
     width: 150px;
     height: 150px;
     border-radius: 50%;
