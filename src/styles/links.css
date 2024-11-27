@@ -1,30 +1,32 @@
-ul{
-    list-style: none;
-    margin: 48px 0;
-  }
-  
-  ul li a{
-    isolation: isolate;
-    text-decoration: none;
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-    color: #000000;
-    margin-bottom: 16px;
-    border-radius: 6px;
-    transition: background 400ms;
-  }
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
 
-  ul li a img{
-    margin-right: 5px;
-  }
+ul li a {
+  isolation: isolate;
+  text-decoration: none;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff8d;
+  color: #000000;
+  border: 1.4px solid #ffffff;
+  margin-bottom: 16px;
+  border-radius: 32px;
+  transition: background 400ms;
+}
 
-  ul li a:hover {
-    background-color: #dad7d7;
-  }
-  
-  ul li a:visited{
-    color: #ffffff;
-  }
+ul li a img {
+  margin-right: 5px;
+}
+
+ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+ul li a:visited {
+  color: #ffffff;
+}
