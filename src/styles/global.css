@@ -3,18 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 body{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/background.jpg) 100% 0 no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     -webkit-font-smoothing: antialiased;
     width: 420px;
     margin: 60px auto;
     padding: 0px 40px;
-    min-height: 100vh;
 }
 
 .profile {

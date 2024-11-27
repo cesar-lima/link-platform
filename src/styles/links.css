@@ -24,9 +24,8 @@ ul li a img {
 
 ul li a:hover {
   background-color: #ffffff;
-  color: #000000;
 }
 
 ul li a:visited {
-  color: #ffffff;
+  color: #000000
 }
