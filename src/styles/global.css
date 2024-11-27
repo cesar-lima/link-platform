@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -6,8 +6,8 @@
     -webkit-font-smoothing: antialiased;
 }
 
-body{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/background.jpg) 100% 0 no-repeat;
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/background.jpg) 100% 0 no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -27,13 +27,25 @@ body{
     border: #ffffff solid 4px;
 }
 
-h1{
+h1 {
     margin-top: 24px;
     margin-bottom: 8px;
     color: #ffffff;
 }
 
-p{
+p {
     color: #ffffff;
 }
+
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
   
+  ::-webkit-scrollbar-track {
+    background: url(../assets/background.jpg); /* Cor de fundo da trilha */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ffffffa2; /* Cor de fundo da alça */
+    border-radius: 5px; /* Cantos arredondados */
+  }
