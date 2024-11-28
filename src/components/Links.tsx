@@ -1,7 +1,6 @@
 import '../styles/links.css'
 import github from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
-import instagram from '../assets/instagram.svg'
 import portfolio from '../assets/portfolio.svg'
 
 function Links() {
@@ -24,12 +23,6 @@ function Links() {
                     <a href="https://cesar-dev.netlify.app" target="_blank">
                         <img src={portfolio} alt="portfolio icon" />
                         Portfolio
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/cesinha.lc/" target="_blank">
-                        <img src={instagram} alt="instagram icon" />
-                        Instagram
                     </a>
                 </li>
             </ul>
